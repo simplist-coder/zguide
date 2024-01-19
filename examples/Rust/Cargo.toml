@@ -91,6 +91,10 @@ name = "wuproxy"
 path = "./wuserver.rs"
 name = "wuserver"
 
+[[bin]]
+path = "./identity.rs"
+name = "identity"
+
 [dependencies]
 zmq = "0.10"
 rand = "0.4"
