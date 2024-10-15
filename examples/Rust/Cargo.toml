@@ -95,6 +95,10 @@ name = "wuserver"
 path = "./identity.rs"
 name = "identity"
 
+[[bin]]
+path = "./rtreq.rs"
+name = "rtreq"
+
 [dependencies]
 zmq = "0.10"
 rand = "0.4"
